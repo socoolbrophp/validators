@@ -28,6 +28,10 @@
 	"satooshi/php-coveralls": "~0.7@dev",
 	"mockery/mockery": "*"
     },
+    "minimum-stability": "dev",
+    "config": {
+        "bin-dir": "bin/"
+    },
     "autoload": {
         "psr-4": {
             "SoCoolBroPHP\\Validators\\" : "src/"
